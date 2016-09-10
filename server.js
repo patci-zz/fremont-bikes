@@ -19,3 +19,5 @@ var express = require('express'),
           headers: {X-App-Token: process.env.BIKE_TOKEN}
       }))(req, res);
     };
+
+    app.get('/socrata/*', proxyBikes);
