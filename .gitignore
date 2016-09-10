@@ -75,3 +75,4 @@ jspm_packages
 
 ### Git ###
 *.orig
+.env
