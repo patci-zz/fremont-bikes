@@ -1,0 +1,32 @@
+{
+  "name": "fremont-bike-counts",
+  "version": "1.0.0",
+  "description": "A Statistics Application Tracking Bicycle Traffic through Fremont, Seattle",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patci/fremont-bikes.git"
+  },
+  "keywords": [
+    "bicycle",
+    "bike",
+    "fremont",
+    "seattle",
+    "counter",
+    "traffic"
+  ],
+  "author": "rick@codefellows.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patci/fremont-bikes/issues"
+  },
+  "homepage": "https://github.com/patci/fremont-bikes#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-request-proxy": "^2.0.0"
+  }
+}
